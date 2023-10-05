@@ -5,4 +5,5 @@ echo "deb [signed-by=/usr/share/keyrings/mono-official-archive-keyring.gpg] http
 sudo apt install -y mono-devel
 
 	# compile and run program
+cd bin/Debug
 mono ImageConverter.exe images/pco_bw.bmp > image.c
